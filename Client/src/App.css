@@ -1,0 +1,219 @@
+.app-shell {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+  text-align: left;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.app-header h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.btn {
+  border: 1px solid #ccc;
+  background: #f5f5f5;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #333;
+  color: white;
+  border-color: #333;
+}
+
+.btn-danger {
+  color: #c0392b;
+  border-color: #c0392b;
+}
+
+.btn-link {
+  border: none;
+  background: none;
+  color: #333;
+  padding: 0;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.search-filter-bar {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-filter-bar input {
+  flex: 1;
+}
+
+.search-filter-bar input,
+.search-filter-bar select,
+.form-field input,
+.form-field textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+
+.status-text {
+  color: #777;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.document-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.document-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.document-card-main {
+  flex: 1;
+  cursor: pointer;
+}
+
+.document-card-main h3 {
+  margin: 0 0 0.25rem;
+}
+
+.document-card-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.category-badge {
+  color: #777;
+  font-size: 0.8rem;
+}
+
+.document-preview {
+  color: #555;
+  margin: 0.3rem 0;
+}
+
+.document-meta {
+  display: block;
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.document-detail .document-content {
+  white-space: pre-wrap;
+  line-height: 1.5;
+  margin: 1rem 0;
+}
+
+.document-detail .document-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.ask-ai {
+  border-top: 1px solid #ddd;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.ask-ai h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+}
+
+.ask-ai-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.ask-ai-form input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.ask-ai-answer {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: #f5f5f5;
+  border-radius: 4px;
+}
+
+.document-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form-field label {
+  font-size: 0.9rem;
+}
+
+.form-field input[aria-invalid="true"],
+.form-field textarea[aria-invalid="true"] {
+  border-color: #c0392b;
+}
+
+.field-error,
+.form-error {
+  color: #c0392b;
+  font-size: 0.85rem;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.dialog-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dialog-box {
+  background: white;
+  color: #222;
+  border-radius: 4px;
+  padding: 1.5rem;
+  max-width: 400px;
+  width: 90%;
+}
